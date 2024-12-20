@@ -1,0 +1,1 @@
+This repository demonstrates a race condition in a simple counter program. Two threads increment a counter concurrently, leading to an incorrect final count. The solution involves using the `synchronized` keyword to ensure thread safety.
